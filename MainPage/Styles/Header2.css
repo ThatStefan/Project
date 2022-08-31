@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(Fonts/Roboto/Roboto-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #F8F7F2;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+    color: #A5A5A5;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-align: left;
+    opacity: 1;
+}
+
+header {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: inline-block;
+    margin: 55px 0px 0px 16%;
+    padding: 0px 0px 0px 0px;
+}
+
+.logo {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+
+.BBLD {
+    position: absolute;
+    display: inline-block;
+    margin: 75px 0px 0px 7%;
+    padding: 0px 0px 0px 0px;
+}
+
+ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    word-spacing: 0px;
+}
+
+li {
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+.dot {
+    margin: 0px 15px 0px 20px;
+    height: 8px;
+    width: 8px;
+    background-color: #F0972A;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+
+
+
+
+.Hbuttons {
+    margin: 72px 17% 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.Login {
+    margin: 0px 0px 0px 0px;
+    padding: 13px 29px 12px 29px;
+    background-color: transparent;
+    border-color: #A5A5A5;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    color: #A5A5A5;
+    font-size: 15px;
+}
+
+.or {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 3px 0px 3px;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #F0972A;
+    border-width: 0;
+    border-color: transparent;
+
+}
+
+.CreateAcount {
+    padding: 13px 29px 12px 29px;
+    background-color: #96BB36;
+    border-style: solid;
+    border-width: 0px;
+    box-shadow: 0px 0px 2px 1px #A5A5A5;
+    border-radius: 5px;
+    border-color: #A5A5A5;
+    color: white;
+    font-size: 15px;
+}
