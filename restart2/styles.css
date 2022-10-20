@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#F8F7F2;
+}
+
+li, a, button {
+    font-family: 'Roboto', san-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #A5A5A5;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 15%;
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #F0972A;
+}
+
+li {
+    text-transform: uppercase;
+    
+}
+
+.C {
+    background-color: #F0972A;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1px 2px;
+    border-radius: 50%;
+}
+
+button {
+    color:#F8F7F2 ;
+    padding: 9px 25px;
+    background-color:#96BB36 ;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.MS {
+    padding: 0px 10px;
+    color: #F0972A;    
+}
+
+.Login {
+    color: #A5A5A5;
+    background-color:#F8F7F2 ;
+}
+.Login:hover {
+    background-color: #e6e4de;
+}
+
+
+button:hover {
+    background-color: #809e32;
+}
