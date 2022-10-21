@@ -89,3 +89,35 @@ button {
 button:hover {
     background-color: #809e32;
 }
+
+.bigb {
+    margin: 50px 15%;
+    font-family: Roboto;
+    color: #96BB36;
+    font-size: 36px;
+}
+
+.Freshcontainer {
+    
+}
+
+.box-module-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-module {
+    margin: 0px 15%;
+    display: flex;
+    
+
+}
+
+.box {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.front {
+    display: inline-block;
+}
